@@ -25,7 +25,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#f5f5f5',
   },
   welcome: {
-    fontSize: 24,
+    fontSize: 34,
+    color:'purple',
     fontWeight: 'bold',
     marginBottom: 10,
   },
