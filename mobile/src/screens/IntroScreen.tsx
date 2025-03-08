@@ -51,8 +51,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   image: {
-    width: width * 0.7,
-    height: width * 0.7,
+    width: width * 0.9,
+    height: width * 0.9,
   },
   contentContainer: {
     flex: 1,
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   title: {
-    fontSize: 28,
+    fontSize: 35,
     fontWeight: 'bold',
     color: '#333',
     textAlign: 'center',

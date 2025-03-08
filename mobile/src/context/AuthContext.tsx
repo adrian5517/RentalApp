@@ -18,7 +18,7 @@ interface AuthProviderProps {
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
 // Use your local IP address
-const API_URL = 'http://192.168.100.105:5000/api';
+const API_URL = 'http://192.168.10.67:5000/api';
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [user, setUser] = useState<any>(null);
